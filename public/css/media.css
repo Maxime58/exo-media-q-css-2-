@@ -1,0 +1,31 @@
+@media screen and (max-width:768px){
+    
+#ligne5a{
+    
+    grid-template-columns:1fr;
+   }
+   #ligne5b{
+       
+       grid-template-columns:1fr;
+   
+   }
+   #ligne5c{
+      
+       grid-template-columns:1fr;
+   }
+   body > main > div.bg-grey > div.quatreimg{
+    grid-template-columns:1fr;
+   }
+}
+@media screen and (max-width:425px) {
+    h1,h2{
+        font-size: medium;
+    }
+    p{
+        font-size:small;
+        
+    }
+    body{
+        width: 90% !important;;
+    }
+}

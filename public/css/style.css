@@ -1,0 +1,125 @@
+body{
+    background-image:url(../images/bg.jpg);
+    width:75%;
+    margin:0 auto;
+    
+    
+}
+header{
+    text-align: center;
+    color:white;
+    
+}
+body > main > div.img-full > img{
+    width:100%;
+}
+.caminar{
+    margin-bottom:0%;
+}
+.titre-white{
+    color:rgb(13, 13, 13);
+    background-color: aliceblue;
+    text-align:center;
+    padding:10px;
+    
+}
+.txt-full{
+    color: black;
+    background-color: aliceblue;
+    text-align:center;
+    padding:10px;
+}
+body > main > div.titre-white > p{
+    margin-bottom:0;
+}
+body > main > div.txt-full > p:nth-child(1){
+    margin-top:0;
+}
+#titre-black{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+    
+    
+}
+.quatreimg{
+    display:grid; grid-template-columns:1fr 1fr;
+    padding:3vw;
+
+
+}
+.quatreimg img{
+    height:100%;
+    width:100%;
+}
+#ligne5a{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+   }
+   #ligne5b{
+       display:grid;
+       grid-template-columns:1fr 1fr;
+   
+   }
+   #ligne5c{
+       display:grid;
+       grid-template-columns:1fr 1fr;
+   }
+
+#ligne5a img{
+   height:100%;
+    width:100%;
+   }
+   #ligne5b img{
+    height:100%;
+    width:100%;
+       
+   
+   }
+   #ligne5c img{
+    height:100%;
+    width:100%;
+      
+   }
+.bg-grey{
+     background-color:black;
+}
+#titre-black > h2{
+    margin:0;
+    padding-top:1vh;
+}
+#ligne5a > div.explications,#ligne5b > div.explications,#ligne5c > div.explications{
+   
+   padding:7vw ;
+   
+   
+
+}
+#ligne5a > div.explications{
+    background-color: aliceblue;
+    color: black;
+}
+#ligne5b > div.explications{
+    background-color: black;
+    color:white;
+}
+#ligne5c > div.explications{
+    background-color: aliceblue;
+    color:black;
+}
+footer{
+     text-align: center;
+     color: aliceblue;
+    padding-top:1vh;
+}
+body > header > p{
+    padding:0;
+    margin-top:0;
+}
+#titre-black > p{
+    color: rgba(162, 152, 152, 0.077);
+}
+header p:first-child{
+    font-size:x-small;
+}
